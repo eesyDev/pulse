@@ -1,0 +1,52 @@
+.footer
+    height: 630px
+    position: relative
+    &__map
+        width: 100%
+        height: 100%
+        border: none
+    &__info
+        position: absolute
+        top: 0
+        left: 50%
+        transform: translateX(-50%)
+        padding: 50px 70px 60px
+        width: 460px
+        height: 270px
+        background-color: $main_color
+        text-align: center
+        address
+            font-size: 19px
+            line-height: 1.2
+            font-weight: 400
+            color: #ffffff
+    &__tel
+        display: block
+        margin-top: 36px
+        font-size: 20px
+        line-height: 1.2
+        font-weight: 700
+        color: #ffffff
+        &:hover
+            color: #ffffff
+    &__social
+        display: flex
+        justify-content: space-between
+        margin: 38px 55px 0
+        color: white
+        a
+            text-decoration: none
+    &__icons
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 50px
+        height: 50px
+        border: 2px solid #ffffff
+        border-radius: 100%
+        line-height: 12px
+        &:hover
+            box-shadow: 2px 2px 20px #ffffff
+            background-color: rgba(0, 0, 0, .5)
+        span
+            font-size: 25px
